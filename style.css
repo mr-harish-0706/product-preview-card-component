@@ -7,6 +7,8 @@
   --card-content-background: hsl(0, 0%, 100%);
   --primary-text-color: hsl(232, 4%, 56%);
   --secondary-text-color: hsl(158, 35%, 38%);
+  --add-to-cart-button-background-color:hsl(158, 36%, 37%);
+  --add-to-cart-button-hovar-color:hsl(156, 42%, 18%);
 }
 
 * {
@@ -104,7 +106,7 @@ body {
   cursor: pointer;
 
   :hover {
-    color: hsl(156, 42%, 18%);
+    background-color: var(--add-to-cart-button-hovar-color);
   }
 }
 
